@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowLeft } from 'lucide-react';
+import imgJeongabok from '../assets/images/jeongabok_premium_hero_v2_1778991027317.png';
+import imgJjamppong from '../assets/images/menu_signature_jjamppong_1778992293242.png';
+import imgTangsuyuk from '../assets/images/menu_signature_tangsuyuk_1778992310748.png';
+import imgYusanseul from '../assets/images/menu_signature_yusanseul_1778992327348.png';
 
 interface MenuProps {
   onBack: () => void;
@@ -11,28 +15,28 @@ const menuItems = [
     id: 1,
     name: '전가복 (全家福)',
     description: '전복, 해삼, 관자 등 엄선된 해산물을 정성껏 볶아낸 찬형각의 시그니처 보양 요리',
-    image: '/src/assets/images/jeongabok_premium_hero_v2_1778991027317.png',
+    image: imgJeongabok,
     price: '₩120,000'
   },
   {
     id: 2,
     name: '삼선 짬뽕',
     description: '신선한 해산물이 듬뿍 들어간 깊고 칼칼한 맛의 명품 짬뽕',
-    image: '/src/assets/images/menu_signature_jjamppong_1778992293242.png',
+    image: imgJjamppong,
     price: '₩25,000'
   },
   {
     id: 3,
     name: '프리미엄 탕수육',
     description: '최상급 한돈을 사용하여 겉은 바삭하고 속은 촉촉한 궁극의 탕수육',
-    image: '/src/assets/images/menu_signature_tangsuyuk_1778992310748.png',
+    image: imgTangsuyuk,
     price: '₩55,000'
   },
   {
     id: 4,
     name: '유산슬',
     description: '풍부한 해산물과 고기, 야채가 어우러진 담백하고 고소한 풍미의 일품 요리',
-    image: '/src/assets/images/menu_signature_yusanseul_1778992327348.png',
+    image: imgYusanseul,
     price: '₩65,000'
   }
 ];

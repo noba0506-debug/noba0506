@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import aboutImg from '../assets/images/wok_fire_vibrant_no_person_1778990817141.png';
 
 interface AboutProps {
   content: { title: string; description: string };
@@ -18,7 +19,7 @@ export default function About({ content }: AboutProps) {
         >
           <div className="aspect-[4/5] bg-brand-gray overflow-hidden">
              <img 
-              src="/src/assets/images/wok_fire_vibrant_no_person_1778990817141.png" 
+              src={aboutImg} 
               alt="The Essence of Wok Hei" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-110"
               referrerPolicy="no-referrer"

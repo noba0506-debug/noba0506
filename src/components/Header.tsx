@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Settings } from 'lucide-react';
 import { View } from '../App';
+import logo from '../assets/images/chan_hyeong_gak_logo_v3_1779010164070.png';
 
 interface HeaderProps {
   onAdminToggle: () => void;
@@ -21,7 +22,7 @@ export default function Header({ onAdminToggle, isAdmin, onViewChange, currentVi
       >
         <div className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] relative flex items-center justify-center">
           <img 
-            src="/src/assets/images/chan_hyeong_gak_logo_v3_1779010164070.png" 
+            src={logo} 
             alt="찬형각 로고"
             className="w-full h-full object-contain mix-blend-screen"
             referrerPolicy="no-referrer"

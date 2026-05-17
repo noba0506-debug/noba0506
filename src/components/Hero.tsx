@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import heroBg from '../assets/images/jeongabok_premium_hero_v2_1778991027317.png';
 
 interface HeroProps {
   content: { title: string; subtitle: string };
@@ -15,7 +16,7 @@ export default function Hero({ content, onMenuClick }: HeroProps) {
         <div className="absolute inset-0 bg-brand-black/30" />
         {/* Premium Jeongabok Background Photo */}
         <img 
-          src="/src/assets/images/jeongabok_premium_hero_v2_1778991027317.png" 
+          src={heroBg} 
           alt="Jeongabok - Premium Chinese Dining"
           className="w-full h-full object-cover opacity-60 scale-105"
           referrerPolicy="no-referrer"
