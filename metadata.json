@@ -1,0 +1,8 @@
+{
+  "name": "찬형각 (Chan-hyeong-gak)",
+  "description": "조찬형 셰프의 철학이 담긴 하이엔드 프리미엄 중식 다이닝. 중식의 미학을 현대적으로 재해석한 공간입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
